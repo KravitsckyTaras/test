@@ -158,7 +158,7 @@ struct ContentView: View {
                                 
                                 Image(systemName: "plus.circle")
                                     .resizable()
-                                    .frame(width: 60, height: 60)
+                                    .frame(width: 100, height: 100)
                                     .foregroundColor(.black)
                                     .padding(.top, 50)
                                     .onTapGesture {
@@ -167,7 +167,7 @@ struct ContentView: View {
                                 
                                 Image(systemName: "xmark.circle")
                                     .resizable()
-                                    .frame(width: 60, height: 60)
+                                    .frame(width: 100, height: 100)
                                     .foregroundColor(.red)
                                     .padding(.top, 50)
                                     .onTapGesture {
